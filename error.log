@@ -1,0 +1,78 @@
+{
+  message: 'Error validating user request body with email in Service: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-15T18:48:40.729Z'
+}
+{
+  message: 'Error registering user with email in Service: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-15T18:48:40.729Z'
+}
+{
+  message: 'Error registering user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-15T18:48:40.730Z'
+}
+{
+  message: 'Error registering user with email in Service: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-15T18:52:42.749Z'
+}
+{
+  message: 'Error registering user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-15T18:52:42.750Z'
+}
+{
+  message: 'Error registering user with email in Service: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-15T18:56:26.699Z'
+}
+{
+  message: 'Error registering user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-15T18:56:26.700Z'
+}
+{
+  message: 'Error registering user with email in Service: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-15T19:02:09.822Z'
+}
+{
+  message: 'Error registering user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-15T19:02:09.822Z'
+}
+{
+  message: 'Error registering user with email in Service: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-15T19:02:10.830Z'
+}
+{
+  message: 'Error registering user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-15T19:02:10.830Z'
+}
+{
+  message: 'Error registering user with email in Service: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-15T19:02:37.152Z'
+}
+{
+  message: 'Error registering user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-15T19:02:37.153Z'
+}

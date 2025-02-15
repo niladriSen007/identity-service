@@ -42,13 +42,15 @@ export class TokenService {
       const refreshToken = crypto.randomBytes(32).toString('hex');
       const refreshTokenExpiration = new Date();
       refreshTokenExpiration.setDate(refreshTokenExpiration.getDate() + 30 * 24 * 60 * 60);
-      await RefreshToken.create({
-        userId: user._id,
+      const newRefreshToken = new RefreshToken({
+        user: user._id,
         token: refreshToken,
-        expiration: refreshTokenExpiration
-      });
+        expiresAt: refreshTokenExpiration
+      })
+      const newToken = await newRefreshToken.save();
+      logger.info('Access token and refresh token generated successfully');
 
-      return { accessToken, refreshToken };
+      return { accessToken, newToken };
     } catch (error) {
       // Handle error appropriately
       console.error('Error generating access token:', error);
