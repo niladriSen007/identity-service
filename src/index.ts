@@ -32,6 +32,12 @@ app.use(cors({
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.use((req, res, next) => {
+  config.logger.info(`Received ${req.method} request to ${req.url}`);
+  config.logger.info(`Request body, ${req.body}`);
+  next();
+});
+
 
 // Rate limiter and preventing DDoS attacks
 const rateLimiter = new RateLimiterRedis({

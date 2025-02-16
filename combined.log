@@ -172,3 +172,237 @@
   service: 'identity-service',
   timestamp: '2025-02-15T19:04:22.454Z'
 }
+{
+  message: 'Registering user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:16:16.585Z'
+}
+{
+  message: 'Registering user with email in Service: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:16:16.587Z'
+}
+{
+  message: 'Access token and refresh token generated successfully',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:16:16.823Z'
+}
+{
+  message: 'User registered with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:16:16.823Z'
+}
+{
+  message: 'Registering user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:16:21.997Z'
+}
+{
+  message: 'Registering user with email in Service: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:16:21.998Z'
+}
+{
+  message: 'Error registering user with email in Service: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:16:22.039Z'
+}
+{
+  message: 'Error registering user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:16:22.039Z'
+}
+{
+  message: 'Registering user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:16:59.868Z'
+}
+{
+  message: 'Registering user with email in Service: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:16:59.868Z'
+}
+{
+  message: 'Error validating user request body with email in Service: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:16:59.870Z'
+}
+{
+  message: 'Error registering user with email in Service: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:16:59.870Z'
+}
+{
+  message: 'Error registering user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:16:59.870Z'
+}
+{
+  message: 'Registering user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:17:10.763Z'
+}
+{
+  message: 'Registering user with email in Service: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:17:10.763Z'
+}
+{
+  message: 'Error validating user request body with email in Service: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:17:10.764Z'
+}
+{
+  message: 'Error registering user with email in Service: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:17:10.764Z'
+}
+{
+  message: 'Error registering user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:17:10.764Z'
+}
+{
+  message: 'Registering user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:17:24.923Z'
+}
+{
+  message: 'Registering user with email in Service: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:17:24.923Z'
+}
+{
+  message: 'Error validating user request body with email in Service: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:17:24.924Z'
+}
+{
+  message: 'Error registering user with email in Service: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:17:24.924Z'
+}
+{
+  message: 'Error registering user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:17:24.924Z'
+}
+{
+  message: 'Registering user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:17:29.273Z'
+}
+{
+  message: 'Registering user with email in Service: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:17:29.274Z'
+}
+{
+  message: 'Access token and refresh token generated successfully',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:17:29.468Z'
+}
+{
+  message: 'User registered with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:17:29.469Z'
+}
+{
+  message: 'Received POST request to /api/v1/auth/register',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:58:49.554Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:58:49.557Z'
+}
+{
+  message: 'Registering user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:58:49.567Z'
+}
+{
+  message: 'Registering user with email in Service: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:58:49.568Z'
+}
+{
+  message: 'Access token and refresh token generated successfully',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:58:49.828Z'
+}
+{
+  message: 'User registered with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:58:49.828Z'
+}
+{
+  message: 'Received POST request to /api/v1/auth/register',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:58:55.159Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:58:55.160Z'
+}
+{
+  message: 'Registering user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:58:55.161Z'
+}
+{
+  message: 'Registering user with email in Service: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:58:55.161Z'
+}
+{
+  message: 'Error registering user with email in Service: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:58:55.207Z'
+}
+{
+  message: 'Error registering user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T03:58:55.207Z'
+}
