@@ -3,6 +3,8 @@ import jwt, { SignOptions } from 'jsonwebtoken';
 import { Types } from 'mongoose';
 import { config } from '../../config';
 import { models } from '../../models';
+import { GlobalErrorResponse } from '../../utils/global-error';
+import { StatusCodes } from 'http-status-codes';
 const { User, RefreshToken } = models;
 const { logger, config_env } = config;
 const { JWT_SECRET_KEY, JWT_REFRESH_SECRET_KEY, JWT_ACCESS_TOKEN_EXPIRATION, JWT_REFRESH_TOKEN_EXPIRATION } = config_env;
@@ -42,6 +44,11 @@ export class TokenService {
       const refreshToken = crypto.randomBytes(32).toString('hex');
       const refreshTokenExpiration = new Date();
       refreshTokenExpiration.setDate(refreshTokenExpiration.getDate() + 30 * 24 * 60 * 60);
+      //removing pre existing refresh tokens
+      const previousRefreshToken = await RefreshToken.findOne({ user: user._id });
+      if (previousRefreshToken) {
+        await RefreshToken.deleteMany({ user: user._id });
+      }
       const newRefreshToken = new RefreshToken({
         user: user._id,
         token: refreshToken,
@@ -52,9 +59,8 @@ export class TokenService {
 
       return { accessToken, newToken };
     } catch (error) {
-      // Handle error appropriately
-      console.error('Error generating access token:', error);
-      throw error;
+      logger.error('Error generating access token and refresh token');
+      throw new GlobalErrorResponse(error.message, StatusCodes.INTERNAL_SERVER_ERROR);
     }
   }
 }

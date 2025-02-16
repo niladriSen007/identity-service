@@ -406,3 +406,729 @@
   service: 'identity-service',
   timestamp: '2025-02-16T03:58:55.207Z'
 }
+{
+  message: 'Received POST request to /api/v1/auth/register',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T08:26:08.663Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T08:26:08.665Z'
+}
+{
+  message: 'Registering user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T08:26:08.668Z'
+}
+{
+  message: 'Registering user with email in Service: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T08:26:08.669Z'
+}
+{
+  message: 'Error registering user with email in Service: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T08:26:08.724Z'
+}
+{
+  message: 'Error registering user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T08:26:08.725Z'
+}
+{
+  message: 'Received POST request to /api/v1/auth/login',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:15:18.082Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:15:18.088Z'
+}
+{
+  message: 'Received POST request to /api/v1/auth/login',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:15:58.823Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:15:58.826Z'
+}
+{
+  message: 'Logging in user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:15:58.828Z'
+}
+{
+  message: 'Logging in user with email in Service: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:15:58.828Z'
+}
+{
+  message: 'Access token and refresh token generated successfully',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:15:59.088Z'
+}
+{
+  message: 'User logged in with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:15:59.089Z'
+}
+{
+  message: 'Received POST request to /api/v1/auth/login',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:18:55.941Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:18:55.943Z'
+}
+{
+  message: 'Logging in user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:18:55.946Z'
+}
+{
+  message: 'Logging in user with email in Service: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:18:55.946Z'
+}
+{
+  message: 'Attempting to login user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:18:55.949Z'
+}
+{
+  message: 'Received POST request to /api/v1/auth/login',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:19:13.113Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:19:13.115Z'
+}
+{
+  message: 'Logging in user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:19:13.119Z'
+}
+{
+  message: 'Logging in user with email in Service: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:19:13.120Z'
+}
+{
+  message: 'Attempting to login user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:19:13.123Z'
+}
+{
+  message: 'Access token and refresh token generated successfully',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:19:13.327Z'
+}
+{
+  message: 'User logged in successfully with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:19:13.327Z'
+}
+{
+  message: 'User logged in with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:19:13.328Z'
+}
+{
+  message: 'Received POST request to /api/v1/auth/login',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:42:55.536Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:42:55.538Z'
+}
+{
+  message: 'Logging in user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:42:55.540Z'
+}
+{
+  message: 'Logging in user with email in Service: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:42:55.541Z'
+}
+{
+  message: 'Attempting to login user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:42:55.544Z'
+}
+{
+  message: 'Access token and refresh token generated successfully',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:42:55.807Z'
+}
+{
+  message: 'User logged in successfully with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:42:55.807Z'
+}
+{
+  message: 'User logged in with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:42:55.808Z'
+}
+{
+  message: 'Received PUT request to /api/v1/auth/refresh-token',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:09.788Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:09.791Z'
+}
+{
+  message: 'Received POST request to /api/v1/auth/refresh-token',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:15.142Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:15.142Z'
+}
+{
+  message: 'Refreshing token for user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:15.144Z'
+}
+{
+  message: 'Refreshing token with refreshToken in Service',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:15.144Z'
+}
+{
+  message: 'Access token and refresh token generated successfully',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:15.885Z'
+}
+{
+  message: 'User refresh token has been refreshed successfully: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:15.886Z'
+}
+{
+  message: 'Token refreshed for user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:15.886Z'
+}
+{
+  message: 'Received POST request to /api/v1/auth/refresh-token',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:44.036Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:44.039Z'
+}
+{
+  message: 'Refreshing token for user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:44.042Z'
+}
+{
+  message: 'Refreshing token with refreshToken in Service',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:44.042Z'
+}
+{
+  message: 'Refresh token not found for user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:44.127Z'
+}
+{
+  message: 'Error refreshing token with refreshToken in Service',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:44.128Z'
+}
+{
+  message: 'Error refreshing token for user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:44.129Z'
+}
+{
+  message: 'Received POST request to /api/v1/auth/login',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:48.677Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:48.678Z'
+}
+{
+  message: 'Logging in user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:48.679Z'
+}
+{
+  message: 'Logging in user with email in Service: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:48.679Z'
+}
+{
+  message: 'Attempting to login user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:48.680Z'
+}
+{
+  message: 'Access token and refresh token generated successfully',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:48.911Z'
+}
+{
+  message: 'User logged in successfully with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:48.912Z'
+}
+{
+  message: 'User logged in with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:48.912Z'
+}
+{
+  message: 'Received POST request to /api/v1/auth/refresh-token',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:46:02.593Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:46:02.593Z'
+}
+{
+  message: 'Refreshing token for user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:46:02.594Z'
+}
+{
+  message: 'Refreshing token with refreshToken in Service',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:46:02.595Z'
+}
+{
+  message: 'Access token and refresh token generated successfully',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:46:02.820Z'
+}
+{
+  message: 'User refresh token has been refreshed successfully: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:46:02.821Z'
+}
+{
+  message: 'Token refreshed for user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:46:02.821Z'
+}
+{
+  message: 'Received POST request to /api/v1/auth/login',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:56:50.816Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:56:50.818Z'
+}
+{
+  message: 'Logging in user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:56:50.821Z'
+}
+{
+  message: 'Logging in user with email in Service: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:56:50.821Z'
+}
+{
+  message: 'Attempting to login user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:56:50.825Z'
+}
+{
+  message: 'Access token and refresh token generated successfully',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:56:51.110Z'
+}
+{
+  message: 'User logged in successfully with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:56:51.111Z'
+}
+{
+  message: 'User logged in with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:56:51.112Z'
+}
+{
+  message: 'Received POST request to /api/v1/auth/logout',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:57:42.499Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:57:42.500Z'
+}
+{
+  message: 'Received POST request to /api/v1/auth/logout',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:02.270Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:02.273Z'
+}
+{
+  message: 'Logging out user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:02.280Z'
+}
+{
+  message: 'Error logging out user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:02.281Z'
+}
+{
+  message: 'Received POST request to /api/v1/auth/logout',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:23.408Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:23.410Z'
+}
+{
+  message: 'Logging out user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:23.414Z'
+}
+{
+  message: 'Logging out user with email in Service: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:23.414Z'
+}
+{
+  message: 'User logged out successfully: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:23.554Z'
+}
+{
+  message: 'User logged out with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:23.555Z'
+}
+{
+  message: 'Received POST request to /api/v1/auth/login',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:28.574Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:28.574Z'
+}
+{
+  message: 'Logging in user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:28.576Z'
+}
+{
+  message: 'Logging in user with email in Service: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:28.577Z'
+}
+{
+  message: 'Attempting to login user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:28.578Z'
+}
+{
+  message: 'Access token and refresh token generated successfully',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:28.784Z'
+}
+{
+  message: 'User logged in successfully with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:28.784Z'
+}
+{
+  message: 'User logged in with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:28.785Z'
+}
+{
+  message: 'Received POST request to /api/v1/auth/logout',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:44.275Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:44.276Z'
+}
+{
+  message: 'Logging out user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:44.277Z'
+}
+{
+  message: 'Logging out user with email in Service: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:44.277Z'
+}
+{
+  message: 'User logged out successfully: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:44.399Z'
+}
+{
+  message: 'User logged out with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:44.399Z'
+}
+{
+  message: 'Received POST request to /api/v1/auth/refresh-token',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:50.438Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:50.438Z'
+}
+{
+  message: 'Refreshing token for user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:50.439Z'
+}
+{
+  message: 'Refreshing token with refreshToken in Service',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:50.439Z'
+}
+{
+  message: 'Refresh token not found for user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:50.514Z'
+}
+{
+  message: 'Error refreshing token with refreshToken in Service',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:50.514Z'
+}
+{
+  message: 'Error refreshing token for user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:50.514Z'
+}
+{
+  message: 'Received POST request to /api/v1/auth/refresh-token',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:58.315Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:58.315Z'
+}
+{
+  message: 'Refreshing token for user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:58.316Z'
+}
+{
+  message: 'Refreshing token with refreshToken in Service',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:58.316Z'
+}
+{
+  message: 'Refresh token not found for user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:58.407Z'
+}
+{
+  message: 'Error refreshing token with refreshToken in Service',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:58.408Z'
+}
+{
+  message: 'Error refreshing token for user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:58.409Z'
+}
+{
+  message: 'Received POST request to /api/v1/auth/refresh-token',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:59:03.492Z'
+}
+{
+  message: 'Request body, [object Object]',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:59:03.492Z'
+}
+{
+  message: 'Refreshing token for user with email: nil@1.com',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:59:03.493Z'
+}
+{
+  message: 'Refreshing token with refreshToken in Service',
+  level: 'info',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:59:03.493Z'
+}
+{
+  message: 'Error validating refresh token request body in Service: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:59:03.495Z'
+}
+{
+  message: 'Error refreshing token with refreshToken in Service',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:59:03.495Z'
+}
+{
+  message: 'Error refreshing token for user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:59:03.495Z'
+}

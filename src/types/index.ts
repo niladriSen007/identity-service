@@ -7,9 +7,19 @@ export interface CreateUserRequest extends Request {
     password: string;
   }
 }
+export interface LoginUserRequest extends Request {
+  body:{
+    email: string;
+    password: string;
+  }
+}
 
 export interface CreateUserType{
   username: string;
+  email: string;
+  password: string;
+}
+export interface LoginUserType{
   email: string;
   password: string;
 }
@@ -33,4 +43,32 @@ export interface RequestWithUser extends Request {
   user?: {
     userId: string;
   };
+}
+
+
+export interface RefreshTokenRequest extends Request {
+  body:{
+    refreshToken: string;
+    userId: string;
+    email: string;
+  }
+}
+
+export interface RefreshTokenTypes{
+  refreshToken: string;
+  userId: string;
+  email: string;
+}
+export interface LogoutRequest extends Request {
+  body:{
+    refreshToken: string;
+    userId: string;
+    email: string;
+  }
+}
+
+export interface LogoutTypes{
+  refreshToken: string;
+  userId: string;
+  email: string;
 }

@@ -154,3 +154,93 @@
   service: 'identity-service',
   timestamp: '2025-02-16T03:58:55.207Z'
 }
+{
+  message: 'Error registering user with email in Service: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T08:26:08.724Z'
+}
+{
+  message: 'Error registering user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T08:26:08.725Z'
+}
+{
+  message: 'Refresh token not found for user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:44.127Z'
+}
+{
+  message: 'Error refreshing token with refreshToken in Service',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:44.128Z'
+}
+{
+  message: 'Error refreshing token for user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:45:44.129Z'
+}
+{
+  message: 'Error logging out user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:02.281Z'
+}
+{
+  message: 'Refresh token not found for user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:50.514Z'
+}
+{
+  message: 'Error refreshing token with refreshToken in Service',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:50.514Z'
+}
+{
+  message: 'Error refreshing token for user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:50.514Z'
+}
+{
+  message: 'Refresh token not found for user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:58.407Z'
+}
+{
+  message: 'Error refreshing token with refreshToken in Service',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:58.408Z'
+}
+{
+  message: 'Error refreshing token for user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:58:58.409Z'
+}
+{
+  message: 'Error validating refresh token request body in Service: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:59:03.495Z'
+}
+{
+  message: 'Error refreshing token with refreshToken in Service',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:59:03.495Z'
+}
+{
+  message: 'Error refreshing token for user with email: nil@1.com',
+  level: 'error',
+  service: 'identity-service',
+  timestamp: '2025-02-16T09:59:03.495Z'
+}
