@@ -12,7 +12,7 @@ export const logger = winston.createLogger({
     winston.format.json(),
     winston.format.prettyPrint(),
   ),
-  defaultMeta: { service: 'identity-service' },
+  defaultMeta: { service: 'post-service' },
   transports: [
     new transports.Console({
       format: winston.format.combine(

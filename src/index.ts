@@ -85,7 +85,7 @@ const sensitiveRoutesLimiter = rateLimit({
 })
 
 //apply the rate limiter to the sensitive routes
-app.use("/api/auth", sensitiveRoutesLimiter)
+app.use("/api/v1/auth", sensitiveRoutesLimiter)
 app.use(errorHandler)
 app.use("/api", apiRouter)
 
